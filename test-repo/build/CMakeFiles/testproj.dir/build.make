@@ -72,6 +72,7 @@ CMakeFiles/testproj.dir/codegen:
 .PHONY : CMakeFiles/testproj.dir/codegen
 
 CMakeFiles/testproj.dir/main.cpp.obj: CMakeFiles/testproj.dir/flags.make
+CMakeFiles/testproj.dir/main.cpp.obj: CMakeFiles/testproj.dir/includes_CXX.rsp
 CMakeFiles/testproj.dir/main.cpp.obj: C:/Users/bazdi/Desktop/UPPRPO/test-repo/main.cpp
 CMakeFiles/testproj.dir/main.cpp.obj: CMakeFiles/testproj.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\bazdi\Desktop\UPPRPO\test-repo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testproj.dir/main.cpp.obj"
@@ -86,6 +87,7 @@ CMakeFiles/testproj.dir/main.cpp.s: cmake_force
 	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bazdi\Desktop\UPPRPO\test-repo\main.cpp -o CMakeFiles\testproj.dir\main.cpp.s
 
 CMakeFiles/testproj.dir/candle.cpp.obj: CMakeFiles/testproj.dir/flags.make
+CMakeFiles/testproj.dir/candle.cpp.obj: CMakeFiles/testproj.dir/includes_CXX.rsp
 CMakeFiles/testproj.dir/candle.cpp.obj: C:/Users/bazdi/Desktop/UPPRPO/test-repo/candle.cpp
 CMakeFiles/testproj.dir/candle.cpp.obj: CMakeFiles/testproj.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\bazdi\Desktop\UPPRPO\test-repo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testproj.dir/candle.cpp.obj"
@@ -110,6 +112,8 @@ testproj_EXTERNAL_OBJECTS =
 testproj.exe: CMakeFiles/testproj.dir/main.cpp.obj
 testproj.exe: CMakeFiles/testproj.dir/candle.cpp.obj
 testproj.exe: CMakeFiles/testproj.dir/build.make
+testproj.exe: lib/libgtest_main.a
+testproj.exe: lib/libgtest.a
 testproj.exe: CMakeFiles/testproj.dir/linkLibs.rsp
 testproj.exe: CMakeFiles/testproj.dir/objects1.rsp
 testproj.exe: CMakeFiles/testproj.dir/link.txt

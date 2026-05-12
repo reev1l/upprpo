@@ -1,7 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/bazdi/Desktop/UPPRPO/test-repo/build/cmake_install.cmake"
+		"C:/Users/bazdi/Desktop/UPPRPO/test-repo/build/cmake_install.cmake",
+		"C:/Users/bazdi/Desktop/UPPRPO/test-repo/build/googletest/cmake_install.cmake",
+		"C:/Users/bazdi/Desktop/UPPRPO/test-repo/build/googletest/googlemock/cmake_install.cmake",
+		"C:/Users/bazdi/Desktop/UPPRPO/test-repo/build/googletest/googletest/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

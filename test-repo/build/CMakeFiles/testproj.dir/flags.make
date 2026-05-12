@@ -4,7 +4,7 @@
 # compile CXX with D:/msys64/ucrt64/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/testproj.dir/includes_CXX.rsp
 
 CXX_FLAGS = 
 
